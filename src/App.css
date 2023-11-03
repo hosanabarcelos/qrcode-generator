@@ -70,7 +70,7 @@ footer svg {
 
 .button {
     background-color: rgb(245, 55, 229);
-	border-radius:8px;
+	border-radius: 8px;
 	display: inline-block;
 	cursor: pointer;
 	color:#ffffff;
@@ -94,4 +94,24 @@ a.disabled {
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+@media screen and (max-width: 300px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    .input {
+        width: 80%;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 16px 50px;
+    }
+
+    footer {
+        font-size: 12px;
+        margin: 4px;
+    }
 }
